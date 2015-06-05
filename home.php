@@ -1,5 +1,10 @@
 <div  class="jumbotron">
     <h1>Welcome to Wiess College</h1>
+    <?php
+        $files = scandir("../images");
+        print_r($files)
+
+    ?>
     <div id="carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
             <div class="item active">
