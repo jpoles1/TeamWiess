@@ -22,6 +22,11 @@ hr{
 #room img{
     margin-top: 60px !important;
 }
+#carousel{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
 #carousel,.carousel-control,#photos img{
     -moz-border-radius: 10px;
     border-radius: 10px;
