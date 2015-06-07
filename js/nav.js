@@ -1,7 +1,7 @@
 /**
  * Created by jordan on 6/5/15.
  */
-var router = {"#home": "home.html", "#about": "about.html", "#newstudents": "newstudents.html", "#cabinet": "cabinet.html", "#court": "court.html", "#reps": "reps.html", "#resources": "resources.html"};
+var router = {"#home": "home.html", "#about": "about.html", "#newstudents": "newstudents.html", "#cabinet": "cabinet.html", "#court": "court.html", "#reps": "reps.html", "#resources": "resources.html", "#calendar": "calendar.html"};
 loadContent = function() {
     loc = window.location.hash;
     selectButton();
