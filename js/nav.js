@@ -2,24 +2,8 @@
  * Created by jordan on 6/5/15.
  */
 var router = {"#!home": "home.html", "#!about": "about.html", "#!newstudents": "newstudents.html", "#!cabinet": "cabinet.html", "#!court": "court.html", "#!reps": "reps.html", "#!resources": "resources.html", "#!calendar": "calendar.html"};
-urlParam = function(theParameter) {
-    var params = window.location.search.substr(1).split('&');
-    for (var i = 0; i < params.length; i++) {
-        var p=params[i].split('=');
-        if (p[0] == theParameter) {
-            return decodeURIComponent(p[1]);
-        }
-    }
-    return false;
-};
 loadContent = function() {
-    var crawlurl = urlParam("_escaped_fragment_");
-    if (crawlurl == false) {
-        loc = window.location.hash;
-    }
-    else {
-        loc = "#!"+crawlurl;
-    }
+    loc = window.location.hash;
     selectButton();
     if (router[loc] != undefined) {
         $("#main").load(router[loc], function () {
