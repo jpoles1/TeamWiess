@@ -13,7 +13,7 @@ h1,h2,h3{
     padding-bottom:40px;
 }
 .img-circle{
-    border: 2px solid #000000;
+    border: 3px solid #1e1e1e;
     box-shadow: 3px 3px 10px #888888;
 }
 .panel{
