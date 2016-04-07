@@ -18,6 +18,10 @@ h1,h2,h3{
 hr{
     border-color: #BFBFBF;
 }
+td{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 #room img{
     margin-top: 60px !important;
 }
