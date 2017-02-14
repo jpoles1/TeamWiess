@@ -17,12 +17,12 @@ String.prototype.hashCode = function(){
 var router = {"#!home": "home.html", "#!about": "about.html", "#!ateam": "ateam.html", "#!newstudents": "newstudents.html", "#!cabinet": "cabinet.html", "#!court": "court.html", "#!reps": "reps.html", "#!resources": "resources.html", "#!calendar": "calendar.html"};
 var contdest = "#main";
 var temeta = "Jordan Poles".hashCode();
-var tefooter = "Created by Jordan Poles with help from Bootstrap and JQuery".hashCode();
+var tefooter = "Created by Jordan Poles (Wiess '17) and Kunal Shah (Wiess '18)".hashCode();
 var val = 1;
 loadContent = function() {
     loc = window.location.hash;
     selectButton();
-    if(val==0){$("#main").html("<h1>Give Credit Where Credit Is Due!</h1>")}
+    if(val==0){$("#main").html("<h1>Give Credit Where Credit Is Due!!!</h1>")}
     if (router[loc] != undefined) {
         $(contdest).load(router[loc], function () {
             if (loc == "#!cabinet" || loc == "#!reps") {
