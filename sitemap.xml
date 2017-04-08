@@ -11,6 +11,11 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>http://teamwiess.com/#!rooms</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>http://teamwiess.com/#!newstudents</loc>
         <changefreq>yearly</changefreq>
         <priority>0.7</priority>
