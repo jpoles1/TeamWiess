@@ -1,6 +1,13 @@
 h1,h2,h3{
     font-family: 'Bitter', serif;
 }
+
+body{
+  background: url("../res/background_wiess.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
 #main{
     margin-top: 90px;
     margin-left: 4%;
@@ -8,7 +15,7 @@ h1,h2,h3{
 }
 #cabdesc{
     text-align: center;
-}
+}bac
 .panel-body{
     padding-bottom:40px;
 }
@@ -133,5 +140,12 @@ td{
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
+  }
+  .bg-img { 
+    background: url("../res/background_wiess.jpg") no-repeat center center fixed; 
+    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
 }
