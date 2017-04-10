@@ -141,11 +141,5 @@ td{
     -webkit-box-shadow: none;
     box-shadow: none;
   }
-  .bg-img { 
-    background: url("../res/background_wiess.jpg") no-repeat center center fixed; 
-    background-size: contain;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-  }
+  
 }
