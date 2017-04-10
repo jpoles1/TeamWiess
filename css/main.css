@@ -1,13 +1,6 @@
 h1,h2,h3{
     font-family: 'Bitter', serif;
 }
-
-body{
-  background: url("../res/background_wiess.jpg");
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-}
 #main{
     margin-top: 90px;
     margin-left: 4%;
