@@ -14,7 +14,7 @@ String.prototype.hashCode = function(){
     }
     return hash;
 }
-var router = {"#!home": "home.html", "#!about": "about.html", "#!ateam": "ateam.html", "#!newstudents": "newstudents.html", "#!cabinet": "cabinet.html", "#!court": "court.html", "#!reps": "reps.html", "#!resources": "resources.html", "#!calendar": "calendar.html"};
+var router = {"#!rasearch": "rasearch.html", "#!home": "home.html", "#!about": "about.html", "#!ateam": "ateam.html", "#!newstudents": "newstudents.html", "#!cabinet": "cabinet.html", "#!court": "court.html", "#!reps": "reps.html", "#!resources": "resources.html", "#!calendar": "calendar.html"};
 var contdest = "#main";
 var temeta = "Jordan Poles".hashCode();
 var tefooter = "Created by Jordan Poles (Wiess '17) and Kunal Shah (Wiess '18)".hashCode();
